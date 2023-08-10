@@ -26,10 +26,10 @@ function placeBm(x, y) {
         // set the width and height of the bookmark
         image.style.position = 'absolute';
         image.style.left = x - 30 + 'px';
-        image.style.top = y - 60 + 'px';
+        image.style.top = y - 45 + 'px';
         image.style.zIndex = '999999';
-        image.style.width = '50px';
-        image.style.height = '50px';
+        image.style.width = '70px';
+        image.style.height = '30px';
         // Append the image to the body
         document.body.appendChild(image);
 
